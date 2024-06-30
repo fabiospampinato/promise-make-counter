@@ -2,7 +2,6 @@
 /* IMPORT */
 
 import {describe} from 'fava';
-import delay from 'promise-resolve-timeout';
 import makeCounterPromise from '../dist/index.js';
 
 /* MAIN */
@@ -15,7 +14,7 @@ describe ( 'Promise Make Counter', it => {
 
     t.true ( isPending () );
 
-    await delay ( 0 );
+    await t.wait ( 0 );
 
     t.false ( isPending () );
 
@@ -31,20 +30,20 @@ describe ( 'Promise Make Counter', it => {
     increment ();
     increment ();
 
-    await delay ( 0 );
+    await t.wait ( 0 );
 
     t.true ( isPending () );
 
     decrement ();
     decrement ();
 
-    await delay ( 0 );
+    await t.wait ( 0 );
 
     t.true ( isPending () );
 
     decrement ();
 
-    await delay ( 0 );
+    await t.wait ( 0 );
 
     t.false ( isPending () );
 
