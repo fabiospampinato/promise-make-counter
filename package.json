@@ -2,7 +2,7 @@
   "name": "promise-make-counter",
   "repository": "github:fabiospampinato/promise-make-counter",
   "description": "A simple function that makes a counter-based promise, which can be incremented and decremented, and it resolves once its counter reaches zero.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
