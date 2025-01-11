@@ -7,7 +7,7 @@ This is an alternative to creating a promise that waits on many other promises t
 ## Install
 
 ```sh
-npm install --save promise-make-counter
+npm install promise-make-counter
 ```
 
 ## Usage
