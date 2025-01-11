@@ -3,7 +3,7 @@
   "repository": "github:fabiospampinato/promise-make-counter",
   "description": "A simple function that makes a counter-based promise, which can be incremented and decremented, and it resolves once its counter reaches zero.",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "main": "dist/index.js",
   "exports": "./dist/index.js",
