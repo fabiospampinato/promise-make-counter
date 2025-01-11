@@ -29,9 +29,9 @@ for ( const filePath of filePaths ) {
 
   fs.readFile ( filePath, 'utf8', ( error, data ) => {
 
-    // Do something here...
-
     decrement ();
+
+    // Actually do something here...
 
   });
 
