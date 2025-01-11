@@ -2,6 +2,7 @@
   "name": "promise-make-counter",
   "repository": "github:fabiospampinato/promise-make-counter",
   "description": "A simple function that makes a counter-based promise, which can be incremented and decremented, and it resolves once its counter reaches zero.",
+  "license": "MIT",
   "version": "1.0.1",
   "type": "module",
   "main": "dist/index.js",
@@ -22,11 +23,11 @@
     "reference"
   ],
   "dependencies": {
-    "promise-make-naked": "^3.0.0"
+    "promise-make-naked": "^3.0.2"
   },
   "devDependencies": {
     "fava": "^0.3.4",
     "tsex": "^4.0.2",
-    "typescript": "^5.5.0-beta"
+    "typescript": "^5.7.3"
   }
 }
